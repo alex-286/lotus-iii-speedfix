@@ -15,9 +15,10 @@ which should be runable on Windows 9x onwards.
 
 BUILDING
 --------
-The project contains a makefile for [Open Watcom](http://open-watcom.github.io/).
-Run "make" to build the Windows executable or "make PLATFORM=DOS" to build the DOS
-executable.
+The project contains a makefiles for [Open Watcom](http://open-watcom.github.io/)
+and GNU make.
+Run GNU "make" or Open Watcom "wmake" to build the Windows executable or
+"make PLATFORM=DOS" / "wmake PLATFORM=DOS" to build the DOS executable.
 
 USAGE
 -----
