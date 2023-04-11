@@ -16,6 +16,7 @@
  */
 
 #include <cstring>
+#include <cstdint>
 #include <fstream>
 #include <iostream>
 
@@ -64,7 +65,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    int const patchPosition = 0xAE86;
+    uint16_t const patchPosition = 0xAE86;
     char readBytes[2] = {0};
 
     /* Open Lotus data file for reading. */
